@@ -1,8 +1,16 @@
 # Transfer Contract Inspector for Figma
 
-**Catch a stretched title becoming left-pinned before accepting a design transfer.** Capture a selection, transfer it using your existing workflow, select the corresponding objects and inspect a field-level comparison. Preview and restore one object's constraints after checking the identity guards.
+Two frames can look alike while behaving differently when resized. This plugin compares selected text, font settings and resizing rules before and after a transfer, bringing the checked differences into one report.
 
-[Try the live synthetic demo](https://az9713.github.io/rea-figma-transfer/plugin-ui.html) · [User guide and investigation](https://az9713.github.io/rea-figma-transfer/) · [Installable prerelease](https://github.com/az9713/rea-figma-transfer/releases)
+Imagine copying a title into another frame. At the current window size it looks right, but its resizing rule has changed: it is now pinned to the left rather than stretching with the frame. You may not notice until you try a different layout size.
+
+**Example:** The demonstration changes a title's horizontal resizing rule. Capture the original settings, compare the corresponding selection, and inspect that difference. The supported repair can restore one object's saved resizing rule after you preview it.
+
+**What you install:** A Figma development plugin, with a separate browser demonstration.
+
+**Current scope:** This checks a limited set of properties, not a complete visual match or every component relationship. Object order matters. The browser example and tests using a simulated Figma interface passed; installation and undo in a real Figma session remain unverified.
+
+[Live guide](https://az9713.github.io/rea-figma-transfer/) · [Download packages](https://github.com/az9713/rea-figma-transfer/releases/tag/v0.1.0)
 
 ## Before and after
 
