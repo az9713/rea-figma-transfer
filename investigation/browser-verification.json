@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "live synthetic mismatch",
+    "edited baseline passes",
+    "malformed JSON rejected",
+    "repair disabled outside host",
+    "documentation image loaded",
+    "mobile layout fits",
+    "no browser exceptions"
+  ],
+  "host": "Chromium synthetic demonstration, not Figma"
+}

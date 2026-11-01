@@ -1,0 +1,1 @@
+2bda06e176a767eb0ed8eac22c4b41f3e49aab01936ec2d1fce45f7407a2d1cb  transfer-contract-inspector-0.1.0.zip

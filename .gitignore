@@ -1,0 +1,5 @@
+node_modules/
+investigation/*.private.json
+releases/*.zip
+.tools/
+test-results/

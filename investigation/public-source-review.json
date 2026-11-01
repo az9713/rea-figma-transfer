@@ -1,0 +1,14 @@
+{
+  "project": "Transfer Contract Inspector",
+  "route": "Original public-API extension",
+  "vendor_binary_recovery": false,
+  "vendor_runtime_tested": false,
+  "evidence": [
+    {"url":"https://developers.figma.com/docs/plugins/plugin-quickstart-guide/","supports":"JavaScript development plugins"},
+    {"url":"https://developers.figma.com/docs/plugins/api/properties/nodes-constraints/","supports":"Native node constraints property"},
+    {"url":"https://developers.figma.com/docs/plugins/api/properties/nodes-boundvariables/","supports":"Exposed variable bindings"},
+    {"url":"https://developers.figma.com/docs/plugins/api/InstanceNode/","supports":"Documented instance state"}
+  ],
+  "unknowns": ["No failing transfer from a current third-party tool was demonstrated", "No claim of exhaustive plugin novelty", "Structural paths do not establish external object identity", "Real Figma installation and undo require host verification"],
+  "verification": {"automated_contract_and_api_double_tests":12,"chromium_synthetic_checks":7}
+}
