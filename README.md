@@ -12,6 +12,18 @@ Imagine copying a title into another frame. At the current window size it looks 
 
 [Live guide](https://az9713.github.io/rea-figma-transfer/) · [Download packages](https://github.com/az9713/rea-figma-transfer/releases/tag/v0.1.0)
 
+<!-- rea-release-expectations:start -->
+## What to expect from this release
+
+**Status: experimental.** Read the tested scope and remaining work below before choosing this release for your workflow.
+
+- **What you get:** A development plugin that runs inside Figma after you install it. The browser demonstration is a separate explanation of the checks.
+- **Verified so far:** Property comparison and the supported single-object resizing-rule repair were tested with a simulated Figma interface; the browser demonstration was exercised.
+- **Still needs testing or implementation:** Installation, selection handling, repair and Undo still need a complete test in a real Figma session.
+- **Relationship to the original app:** This adds a narrow comparison and repair workflow through a plugin. It does not replace Figma or provide complete visual, component or design-transfer compatibility.
+
+<!-- rea-release-expectations:end -->
+
 ## Before and after
 
 | Before | With this plugin |
